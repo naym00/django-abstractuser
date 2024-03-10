@@ -1,0 +1,13 @@
+GET http://127.0.0.1:8000/exuser/employee/
+Content-Type: application/json
+
+{}
+
+###
+
+POST http://127.0.0.1:8000/exuser/addemployee/
+Content-Type: application/json
+
+{ "is_superuser": true, "username": "akash", "password": "akash", "is_staff": true, "is_active": true, "phone": "+8801790887766", "gender": "Male" }
+
+###
